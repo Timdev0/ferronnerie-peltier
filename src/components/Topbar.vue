@@ -14,7 +14,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown Menu
+                Menu Dropdown
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                 <router-link class="dropdown-item" to="">Dropdown item 1</router-link>
@@ -31,7 +31,7 @@
     </div>
 </template>
 
-<style scoped>
+<!-- <style scoped>
     
-</style>
+</style> -->
 

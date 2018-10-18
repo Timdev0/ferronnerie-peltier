@@ -2,16 +2,20 @@
   <div id="app">
     <topbar></topbar>
     <router-view/>
+    <myfooter></myfooter>
   </div>
 </template>
 
 <script>
 import Topbar from './components/Topbar.vue';
+import Myfooter from './components/Myfooter.vue';
+
 
 export default {
   components: {
     Topbar: Topbar,
-  }
+    Myfooter: Myfooter,
+  },
 }
 </script>
 
@@ -37,5 +41,19 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
 }
 </style>
