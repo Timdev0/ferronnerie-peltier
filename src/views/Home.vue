@@ -11,7 +11,7 @@
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('/assets/3.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Véranda</h3>
+              <h3>Vérandas</h3>
               <p>Description du premier slide.</p>
             </div>
           </div>
