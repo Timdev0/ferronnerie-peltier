@@ -48,5 +48,8 @@
 export default {
   name: 'home',
 
+  mounted(){
+    $('.carousel').carousel();
+  }
 };
 </script>
