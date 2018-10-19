@@ -11,6 +11,7 @@
               <router-link class="nav-link" to="/about">À propos</router-link>
             </li>
             <li class="nav-item">
+              <router-link class="nav-link" to="/contact">Contact</router-link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -23,9 +24,6 @@
                 <router-link class="dropdown-item" to="">Dropdown item 4</router-link>
                 <router-link class="dropdown-item" to="">Dropdown item 5</router-link>
               </div>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contact</router-link>
             </li>
           </ul>
         </div>
