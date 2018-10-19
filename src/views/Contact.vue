@@ -8,7 +8,7 @@
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="index.html">Accueil</a>
+              <router-link to="/">Accueil</router-link>
         </li>
         <li class="breadcrumb-item active">Contact</li>
       </ol>
@@ -48,6 +48,7 @@
       <div class="row">
         <div class="col-lg-8 mb-4">
           <h3>Envoyer un message</h3>
+          <!-- 
           <form name="sentMessage" id="contactForm" novalidate>
             <div class="control-group form-group">
               <div class="controls">
@@ -75,10 +76,11 @@
               </div>
             </div>
             <div class="g-recaptcha" data-sitekey="6LfW0HUUAAAAAD19gxgIflAghLkRDUsZjgUq9737"></div>
-            <div id="success"></div>
+            <div id="success"></div>-->
             <!-- For success/fail messages -->
-            <button type="submit" class="btn btn-primary" id="sendMessageButton">Envoyer</button>
-          </form>
+           <!-- <button type="submit" class="btn btn-primary" id="sendMessageButton">Envoyer</button>
+          </form> -->
+         <a id="foxyform_embed_link_189660" href="http://fr.foxyform.com/">foxyform</a>
         </div>
 
       </div>
@@ -90,6 +92,26 @@
 
 <style scoped>
   .g-recaptcha{
-    margin-bottom: 16px;
+    margin-bottom: 8px !important;
+    margin-top: 8px !important;
+  }
+  #foxyform_embed_link_189660{
+    display: none !important;
   }
 </style>
+
+<script type="text/javascript">
+export default {
+  name: 'contact',
+
+  mounted() {
+    var d = document;
+    var t = 'script';
+    var g = d.createElement(t);
+    var s = d.getElementsByTagName(t)[0];
+    
+    g.src = "http://fr.foxyform.com/js.php?id=189660&sec_hash=7e5b33b50c6&width=350px";
+    s.parentNode.insertBefore(g, s);
+  }
+}
+</script>
