@@ -9,7 +9,7 @@
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="index.html">Accueil</a>
+          <router-link to="/">Accueil</router-link>
         </li>
         <li class="breadcrumb-item active">À propos</li>
       </ol>

@@ -8,7 +8,7 @@
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-              <router-link to="/">Accueil</router-link>
+          <router-link to="/">À propos</router-link>
         </li>
         <li class="breadcrumb-item active">Contact</li>
       </ol>
@@ -91,13 +91,7 @@
 </template>
 
 <style scoped>
-  .g-recaptcha{
-    margin-bottom: 8px !important;
-    margin-top: 8px !important;
-  }
-  #foxyform_embed_link_189660{
-    display: none !important;
-  }
+  
 </style>
 
 <script type="text/javascript">
