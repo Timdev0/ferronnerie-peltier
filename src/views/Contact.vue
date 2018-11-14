@@ -2,13 +2,11 @@
     <div id="contact" class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Contact
-        <small>Sous-titre</small>
-      </h1>
+      <h1 class="mt-4 mb-3">Contact</h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <router-link to="/">À propos</router-link>
+          <router-link to="/">Accueil</router-link>
         </li>
         <li class="breadcrumb-item active">Contact</li>
       </ol>
@@ -37,7 +35,7 @@
             </a>
           </p>
           <p>
-            <abbr title="Horaires">Horaires</abbr>: Lundi - Vendredi: 8h à 12h - 14h à 17h Samedi :  9h à 12h
+            <abbr title="Horaires">Horaires</abbr>: Lundi - Vendredi: 8h à 12h - 13h à 18h Samedi :  9h à 12h
           </p>
         </div>
       </div>
@@ -91,7 +89,9 @@
 </template>
 
 <style scoped>
-  
+  a#foxyform_embed_link_189660{
+    display: none !important;
+  }
 </style>
 
 <script type="text/javascript">

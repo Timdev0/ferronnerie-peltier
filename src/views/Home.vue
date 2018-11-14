@@ -11,22 +11,19 @@
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active" style="background-image: url('/assets/3.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Vérandas</h3>
-              <p>Description du premier slide.</p>
+              <p class="main-slide">Vérandas</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Deuxième Slide</h3>
-              <p>Description du deuxième slide.</p>
+              <p class="main-slide">Deuxième Slide</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Troisième Slide</h3>
-              <p>Description du troisième slide.</p>
+              <p class="main-slide">Troisième Slide</p>
             </div>
           </div>
         </div>
@@ -42,17 +39,28 @@
     </div>
 
     <div class="container first-container">
-      <h2>Secteurs</h2>
 
-      <div class="row">
+      <div class="row marg-top-row-2">
+        <div class="col-lg-7">
+          <h2>Ferronnerie d'Art - Serrurerie - Métallerie</h2>
+          <p>Créée en 1982, notre ferronnerie familiale vous propose des créations sur mesure : portails, verrières, vérandas, escaliers, rampes débillardées, portes d'entrée, serrurerie,...</p>
+        </div>
+        <div class="col-lg-5 fire-art">
+          <h4>Le feu et le fer au service de l'art</h4>
+          <img src="http://placehold.it/300x150" alt="">
+        </div>
+      </div>
+
+      <h2>Nos réalisations</h2>
+
+      <div class="row marg-top-row-1">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Serrurie</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+              <h3 class="card-title">
+                Portails
+              </h3>
             </div>
           </div>
         </div>
@@ -60,10 +68,9 @@
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Portails</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <h3 class="card-title">
+                Vérandas
+              </h3>
             </div>
           </div>
         </div>
@@ -71,14 +78,43 @@
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Décorations</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+              <h3 class="card-title">
+                Escaliers
+              </h3>
             </div>
           </div>
         </div>
         
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h3 class="card-title">
+                Rampes
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h3 class="card-title">
+                Portes
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h3 class="card-title">
+                Serrurerie
+              </h3>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -89,17 +125,49 @@
 <script>
 // @ is an alias to /src
 export default {
-  name: 'home',
+  name: "home",
 
-  mounted(){
-    $('.carousel').carousel();
+  mounted() {
+    $(".carousel").carousel();
   }
 };
 </script>
 
 <style scoped>
-  .first-container{
-    margin-top: 24px;
+.first-container {
+  margin-top: 24px;
+}
+
+.marg-top-row-2 {
+  margin-top: 2rem;
+}
+
+.marg-top-row-1 {
+  margin-top: 1rem;
+}
+
+.fire-art {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+    .fire-art{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
   }
+
+
+.main-slide {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  margin-top: 0;
+}
 </style>
 
