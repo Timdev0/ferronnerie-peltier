@@ -47,7 +47,7 @@
         </div>
         <div class="col-lg-5 fire-art">
           <h4>Le feu et le fer au service de l'art</h4>
-          <img src="http://placehold.it/300x150" alt="">
+          <img src="/assets/peltier.jpg" alt=""  style="height: 152px; width: auto;">
         </div>
       </div>
 
@@ -147,7 +147,7 @@ export default {
 }
 
 .fire-art {
-  text-align: right;
+  text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
 }
