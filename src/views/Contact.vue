@@ -78,7 +78,6 @@
             <!-- For success/fail messages -->
            <!-- <button type="submit" class="btn btn-primary" id="sendMessageButton">Envoyer</button>
           </form> -->
-         <a id="foxyform_embed_link_189660" href="http://fr.foxyform.com/">foxyform</a>
         </div>
 
       </div>
@@ -93,19 +92,3 @@
     display: none !important;
   }
 </style>
-
-<script type="text/javascript">
-export default {
-  name: 'contact',
-
-  mounted() {
-    var d = document;
-    var t = 'script';
-    var g = d.createElement(t);
-    var s = d.getElementsByTagName(t)[0];
-    
-    g.src = "https://fr.foxyform.com/js.php?id=189660&sec_hash=7e5b33b50c6&width=350px";
-    s.parentNode.insertBefore(g, s);
-  }
-}
-</script>

@@ -21,9 +21,9 @@
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('/assets/5.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <p class="main-slide">Troisième Slide</p>
+              <p class="main-slide">Portails</p>
             </div>
           </div>
         </div>
@@ -168,6 +168,11 @@ export default {
   line-height: 1.2;
   color: inherit;
   margin-top: 0;
+}
+
+.carousel-item{
+  background-size: 100%;
+  height: 80vh;
 }
 </style>
 
