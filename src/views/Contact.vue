@@ -78,7 +78,7 @@
             <!-- For success/fail messages -->
            <!-- <button type="submit" class="btn btn-primary" id="sendMessageButton">Envoyer</button>
           </form> -->
-         <a id="foxyform_embed_link_189660" href="http://fr.foxyform.com/">foxyform</a>
+         <a id="foxyform_embed_link_189660" href="https://fr.foxyform.com/">foxyform</a>
         </div>
 
       </div>

@@ -5,3 +5,11 @@
       </div>
     </div>    
 </template>
+
+<style scoped>
+  #footer{
+    position: absolute;
+    width: 100%
+  }
+</style>
+
