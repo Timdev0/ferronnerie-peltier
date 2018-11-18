@@ -91,7 +91,6 @@
 
 <style scoped>
   a#foxyform_embed_link_189660{
-    display: none !important;
   }
 </style>
 
