@@ -171,7 +171,6 @@ export default {
 }
 
 .carousel-item{
-  background-size: 100%;
   height: 80vh;
 }
 </style>
