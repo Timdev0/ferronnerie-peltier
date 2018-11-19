@@ -169,9 +169,5 @@ export default {
   color: inherit;
   margin-top: 0;
 }
-
-.carousel-item{
-  height: 80vh;
-}
 </style>
 
