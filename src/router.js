@@ -4,9 +4,11 @@ import Home from './views/Home.vue';
 import Contact from './views/Contact.vue';
 import notFound from './views/404.vue';
 
+
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -23,10 +25,10 @@ export default new Router({
       name: '404',
       component: notFound,
     },
-
     {
       path: '*',
-      redirect: '/404',
+      component: notFound,
     },
+
   ],
 });
