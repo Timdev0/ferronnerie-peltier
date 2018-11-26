@@ -46,38 +46,45 @@
       <div class="row">
         <div class="col-lg-8 mb-4">
           <h3>Envoyer un message</h3>
-          <!-- 
-          <form name="sentMessage" id="contactForm" novalidate>
+          <form name="contact" method="POST" netlify>
             <div class="control-group form-group">
               <div class="controls">
-                <label>Nom prénom :</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block"></p>
+                <label>Nom *</label>
+                <input type="text" class="form-control" name="name" required>
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
-                <label>Numéro de téléphone :</label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <label>Numéro de téléphone</label>
+                <input type="tel" class="form-control" id="phone">
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
-                <label>Adresse mail :</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                <label>Adresse mail *</label>
+                <input v-model="email" type="email" class="form-control" name="email" required>
+                <p class="help-msg" v-if="validateEmail() === false && email.length > 0">
+                  <ul>
+                    <li>Adresse email invalide</li>
+                  </ul>
+                  </p>
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
-                <label>Message :</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                <label>Message *</label>
+                <textarea v-model="message" rows="10" cols="100" class="form-control" name="message" required maxlength="999" style="resize:none"></textarea>
+                <p class="help-msg" v-if="message.length > 0 && message.length < 5">
+                  <ul>
+                    <li>Le message est trop court</li>
+                  </ul>
+                </p>
               </div>
             </div>
-            <div class="g-recaptcha" data-sitekey="6LfW0HUUAAAAAD19gxgIflAghLkRDUsZjgUq9737"></div>
-            <div id="success"></div>-->
+            <div data-netlify-recaptcha></div>
             <!-- For success/fail messages -->
-           <!-- <button type="submit" class="btn btn-primary" id="sendMessageButton">Envoyer</button>
-          </form> -->
+            <button type="submit" class="btn btn-primary" id="sendMessageButton" :disabled="validateEmail() === false || message.length < 5">Envoyer</button>
+          </form> 
         </div>
 
       </div>
@@ -88,7 +95,28 @@
 </template>
 
 <style scoped>
-  a#foxyform_embed_link_189660{
-    display: none !important;
+  .help-msg{
+    margin-top: 6px;
   }
 </style>
+
+<script>
+export default {
+  data: function() {
+    return {
+      email: '',
+      message: '',
+    };
+  },
+
+  methods:{
+    validateEmail:function() {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(this.email).toLowerCase());
+},
+    validateMessage:function(){
+      return
+    }
+  }
+}
+</script>
