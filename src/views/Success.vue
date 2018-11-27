@@ -1,0 +1,33 @@
+<template>
+    <div id="success">
+            <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <h1 class="mt-4 mb-3">Success
+            <small></small>
+        </h1>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+            <router-link to="/">Accueil</router-link>
+            </li>
+            <li class="breadcrumb-item active">Success</li>
+        </ol>
+
+        <div class="jumbotron">
+            <h1 class="display-1"></h1>
+            <p></p>
+            <ul>
+            <li>
+                <router-link to="/">Accueil</router-link>
+            </li>
+            <li>
+                <router-link to="/contact">Contact</router-link>
+            </li>
+            </ul>
+        </div>
+        <!-- /.jumbotron -->
+
+        </div>
+    </div>
+</template>

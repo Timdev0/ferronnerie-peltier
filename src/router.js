@@ -3,7 +3,7 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Contact from './views/Contact.vue';
 import notFound from './views/404.vue';
-
+import Success from './views/Success.vue';
 
 Vue.use(Router);
 
@@ -29,6 +29,10 @@ export default new Router({
       path: '*',
       component: notFound,
     },
-
+    {
+      path: '/success',
+      name: 'sucess',
+      component: Success,
+    },
   ],
 });
