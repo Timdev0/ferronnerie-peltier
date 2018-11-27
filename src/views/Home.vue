@@ -56,7 +56,7 @@
       <div class="row marg-top-row-1">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/assets/7.jpg" alt=""></a>
+            <img class="card-img-top" src="/assets/7.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Portes - Portails
@@ -66,7 +66,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/assets/2.jpg" alt=""></a>
+            <img class="card-img-top" src="/assets/2.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Vérandas
@@ -76,7 +76,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/assets/6.jpg" alt=""></a>
+            <img class="card-img-top" src="/assets/6.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Escaliers
@@ -87,7 +87,7 @@
         
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/assets/1.jpg" alt=""></a>
+            <img class="card-img-top" src="/assets/1.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Rampes
@@ -97,7 +97,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/assets/9.jpg" alt=""></a>
+            <img class="card-img-top" src="/assets/9.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Décorations
@@ -107,7 +107,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/assets/8.jpeg" alt=""></a>
+          <img class="card-img-top" src="/assets/8.jpeg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Serrurerie
@@ -116,6 +116,19 @@
           </div>
         </div>
       </div>
+
+      <form name="contact" method="POST" netlify>
+        <p>
+          <label>Email: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <div data-netlify-recaptcha></div>
+        <p>
+          <button type=”submit”>Send</button>
+        </p>
+      </form>
 
     </div>
 
