@@ -56,7 +56,7 @@
       <div class="row marg-top-row-1">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="/assets/7.jpg" alt=""></a>
             <div class="card-body">
               <h3 class="card-title">
                 Portails
@@ -66,7 +66,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="/assets/2.jpg" alt=""></a>
             <div class="card-body">
               <h3 class="card-title">
                 Vérandas
@@ -76,7 +76,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="/assets/6.jpg" alt=""></a>
             <div class="card-body">
               <h3 class="card-title">
                 Escaliers
@@ -87,7 +87,7 @@
         
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="/assets/1.jpg" alt=""></a>
             <div class="card-body">
               <h3 class="card-title">
                 Rampes
@@ -107,7 +107,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="/assets/8.jpeg" alt=""></a>
             <div class="card-body">
               <h3 class="card-title">
                 Serrurerie
@@ -150,6 +150,10 @@ export default {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.card-img-top{
+  height: 200px;
 }
 
 @media screen and (max-width: 991px) {
