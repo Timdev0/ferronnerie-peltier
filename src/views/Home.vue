@@ -59,7 +59,7 @@
             <a href="#"><img class="card-img-top" src="/assets/7.jpg" alt=""></a>
             <div class="card-body">
               <h3 class="card-title">
-                Portails
+                Portes - Portails
               </h3>
             </div>
           </div>
@@ -97,10 +97,10 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="/assets/9.jpg" alt=""></a>
             <div class="card-body">
               <h3 class="card-title">
-                Portes
+                Décorations
               </h3>
             </div>
           </div>
