@@ -46,7 +46,7 @@
       <div class="row">
         <div class="col-lg-8 mb-4">
           <h3>Envoyer un message</h3>
-          <form name="contact" method="POST" netlify-recaptcha netlify>
+          <form name="contact" method="POST" data-netlify-recaptcha netlify>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Nom *</label>
@@ -81,7 +81,9 @@
                 </p>
               </div>
             </div>
-            <div class="g-recaptcha" data-sitekey="6LfW0HUUAAAAAD19gxgIflAghLkRDUsZjgUq9737"></div>
+            <!-- <div class="g-recaptcha" data-sitekey="6LfW0HUUAAAAAD19gxgIflAghLkRDUsZjgUq9737"></div> -->
+            <vue-recaptcha class="captcha" sitekey="6LfW0HUUAAAAAD19gxgIflAghLkRDUsZjgUq9737"></vue-recaptcha>
+
             <!-- For success/fail messages -->
             <button type="submit" class="btn btn-primary" id="sendMessageButton" :disabled="validateEmail() === false || message.length < 5">Envoyer</button>
           </form>
@@ -97,10 +99,20 @@
   .help-msg{
     margin-top: 6px;
   }
+
+  .captcha{
+    margin-bottom: 8px;
+  }
 </style>
 
 <script>
+import VueRecaptcha from 'vue-recaptcha';
+
 export default {
+  components: {
+    VueRecaptcha,
+  },
+
   data: function() {
     return {
       email: '',
