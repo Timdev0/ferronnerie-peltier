@@ -46,7 +46,7 @@
       <div class="row">
         <div class="col-lg-8 mb-4">
           <h3>Envoyer un message</h3>
-          <form name="contact" method="post" action="/success" data-netlify-recaptcha data-netlify="true">
+          <form name="contact" method="POST" action="/success" netlify-recaptcha netlify>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Nom *</label>
@@ -81,7 +81,6 @@
                 </p>
               </div>
             </div>
-            <!-- <div class="g-recaptcha" data-sitekey="6LfW0HUUAAAAAD19gxgIflAghLkRDUsZjgUq9737"></div> -->
             <vue-recaptcha class="captcha" sitekey="6LfW0HUUAAAAAD19gxgIflAghLkRDUsZjgUq9737"></vue-recaptcha>
 
             <!-- For success/fail messages -->
