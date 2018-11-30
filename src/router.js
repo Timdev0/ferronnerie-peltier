@@ -26,7 +26,7 @@ export default new Router({
     },
     {
       path: '*',
-      component: notFound,
+      redirect: '/404',
     },
   ],
 });

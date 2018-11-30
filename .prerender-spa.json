@@ -1,1 +1,1 @@
-{"renderRoutes":["/","/contact"],"useRenderEvent":true,"headless":true,"onlyProduction":true}
+{"renderRoutes":["/","/contact","/404"],"useRenderEvent":true,"headless":true,"onlyProduction":true}
