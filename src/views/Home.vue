@@ -151,10 +151,6 @@ export default {
   font-weight: bold;
 }
 
-.card-img-top{
-  height: 200px;
-}
-
 @media screen and (max-width: 991px) {
     .fire-art{
       text-align: center;
