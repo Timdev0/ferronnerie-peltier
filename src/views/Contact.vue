@@ -46,7 +46,7 @@
       <div class="row">
         <div class="col-lg-8 mb-4">
           <h3>Envoyer un message</h3>
-          <form name="contact" method="POST" action="/success" netlify-recaptcha netlify>
+          <form name="contact" method="POST" action="success.html" netlify-recaptcha netlify>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Nom *</label>
