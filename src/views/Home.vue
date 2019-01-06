@@ -79,7 +79,7 @@
             <img class="card-img-top" src="/assets/6.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
-                Escaliers
+                Rampes
               </h3>
             </div>
           </div>
@@ -90,7 +90,7 @@
             <img class="card-img-top" src="/assets/1.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
-                Rampes
+                Main courante
               </h3>
             </div>
           </div>
