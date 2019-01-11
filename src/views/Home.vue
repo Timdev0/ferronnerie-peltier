@@ -115,6 +115,7 @@
             </div>
           </div>
         </div>
+        <p class="see-more">Voirs plus de nos créations : </p>
       </div>
     </div>
 
@@ -171,6 +172,10 @@ export default {
 
 h1.content{
   font-size: 2rem;
+}
+
+.see-more{
+  padding-left: 15px;
 }
 </style>
 
