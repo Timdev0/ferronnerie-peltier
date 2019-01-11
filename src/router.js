@@ -15,25 +15,21 @@ export default new Router({
       name: 'home',
       component: Home,
     },
-    
     {
       path: '/contact',
       name: 'contact',
       component: Contact,
     },
-
     {
       path: '/galerie',
       name: 'galerie',
       component: Galerie,
     },
-
     {
       path: '/404',
       name: '404',
       component: notFound,
     },
-
     {
       path: '*',
       redirect: '/404',
