@@ -115,7 +115,7 @@
             </div>
           </div>
         </div>
-        <p class="see-more">Voirs plus de nos créations : </p>
+        <p class="see-more">Pour voir plus de nos créations : <router-link class="btn btn-primary" to="/galerie">Accèdez à la Galerie</router-link></p>
       </div>
     </div>
 
