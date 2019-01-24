@@ -9,6 +9,7 @@
     "netlify": "vue-cli-service build"
   },
   "dependencies": {
+    "@intera/vue-zoom-on-hover": "^1.0.0",
     "bootstrap": "^4.1.3",
     "vue": "^2.5.17",
     "vue-recaptcha": "^1.1.1",

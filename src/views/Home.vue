@@ -90,7 +90,7 @@
             <img class="card-img-top" src="/assets/05.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
-                Main courante
+                Mains courantes
               </h3>
             </div>
           </div>

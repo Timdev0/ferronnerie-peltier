@@ -9,7 +9,8 @@
 <style scoped>
   #footer{
     position: absolute;
-    width: 100%
+    width: 100%; 
+    z-index: -1;
   }
 </style>
 
