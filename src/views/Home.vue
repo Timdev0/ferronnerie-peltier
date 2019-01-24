@@ -9,19 +9,19 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('/assets/3.jpg')">
+          <div class="carousel-item active" style="background-image: url('/assets/02.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Vérandas</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('/assets/4.jpg')">
+          <div class="carousel-item" style="background-image: url('/assets/03.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portes</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('/assets/5.jpg')">
+          <div class="carousel-item" style="background-image: url('/assets/04.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portails</p>
             </div>
@@ -56,7 +56,7 @@
       <div class="row marg-top-row-1">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/7.jpg" alt="">
+            <img class="card-img-top" src="/assets/07.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Portes - Portails
@@ -66,7 +66,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/2.jpg" alt="">
+            <img class="card-img-top" src="/assets/01.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Vérandas
@@ -76,7 +76,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/6.jpg" alt="">
+            <img class="card-img-top" src="/assets/06.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Rampes
@@ -87,7 +87,7 @@
         
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/1.jpg" alt="">
+            <img class="card-img-top" src="/assets/05.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Main courante
@@ -97,7 +97,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/9.jpg" alt="">
+            <img class="card-img-top" src="/assets/09.jpg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Décorations
@@ -107,7 +107,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <img class="card-img-top" src="/assets/8.jpeg" alt="">
+          <img class="card-img-top" src="/assets/08.jpeg" alt="">
             <div class="card-body">
               <h3 class="card-title">
                 Serrurerie
