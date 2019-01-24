@@ -156,6 +156,7 @@ export default {
   padding: 80px 40px;
   background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
+  z-index: 1;
 }
 .image-dialog-animate {
   display: none;
