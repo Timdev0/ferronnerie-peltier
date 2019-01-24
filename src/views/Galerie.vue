@@ -10,7 +10,40 @@
     <div class="row marg-top-row-1">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="/assets/05.jpg" alt>
+          <image-dialog thumb="/assets/05-thumb.jpg" full="/assets/05.jpg"></image-dialog>
+          <div class="card-body">
+            <h3 class="card-title">Main courante</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <image-dialog thumb="/assets/06-thumb.jpg" full="/assets/06.jpg"></image-dialog>
+          <div class="card-body">
+            <h3 class="card-title">Rampe</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <image-dialog thumb="/assets/07-thumb.jpg" full="/assets/07.jpg"></image-dialog>
+          <div class="card-body">
+            <h3 class="card-title">Portail</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <image-dialog thumb="/assets/09-thumb.jpg" full="/assets/09.jpg"></image-dialog>
+          <div class="card-body">
+            <h3 class="card-title">Décoration</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <image-dialog thumb="/assets/10-thumb.jpg" full="/assets/10.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -18,15 +51,16 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="/assets/06.jpg" alt>
+          <image-dialog thumb="/assets/11-thumb.jpg" full="/assets/11.jpg"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Véranda</h3>
           </div>
         </div>
       </div>
+
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="/assets/07.jpg" alt>
+          <image-dialog thumb="/assets/12-thumb.jpg" full="/assets/12.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -35,23 +69,7 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="/assets/09.jpg" alt>
-          <div class="card-body">
-            <h3 class="card-title"></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <img class="card-img-top" src="/assets/10.jpg" alt>
-          <div class="card-body">
-            <h3 class="card-title"></h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <img class="card-img-top" src="/assets/11.jpg" alt>
+          <image-dialog thumb="/assets/13-thumb.jpg" full="/assets/13.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -60,7 +78,34 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="/assets/12.jpg" alt>
+          <image-dialog thumb="/assets/14-thumb.jpg" full="/assets/14.jpg"></image-dialog>
+          <div class="card-body">
+            <h3 class="card-title">Porte</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <image-dialog thumb="/assets/15-thumb.jpg" full="/assets/15.jpg"></image-dialog>
+          <div class="card-body">
+            <h3 class="card-title">Portail</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <image-dialog thumb="/assets/16-thumb.jpg" full="/assets/16.jpg"></image-dialog>
+          <div class="card-body">
+            <h3 class="card-title">Véranda</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <image-dialog thumb="/assets/17-thumb.jpg" full="/assets/17.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -69,7 +114,7 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="/assets/13.jpg" alt>
+          <image-dialog thumb="/assets/18-thumb.jpg" full="/assets/18.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -78,61 +123,16 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="/assets/14.jpg" alt>
+          <image-dialog thumb="/assets/19-thumb.jpg" full="/assets/19.jpg"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Portail</h3>
           </div>
         </div>
       </div>
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="/assets/15.jpg" alt>
-          <div class="card-body">
-            <h3 class="card-title"></h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <img class="card-img-top" src="/assets/16.jpg" alt>
-          <div class="card-body">
-            <h3 class="card-title"></h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <img class="card-img-top" src="/assets/17.jpg" alt>
-          <div class="card-body">
-            <h3 class="card-title"></h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <img class="card-img-top" src="/assets/18.jpg" alt>
-          <div class="card-body">
-            <h3 class="card-title"></h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <img class="card-img-top" src="/assets/19.jpg" alt>
-          <div class="card-body">
-            <h3 class="card-title"></h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <img class="card-img-top" src="/assets/20.jpg" alt>
+          <image-dialog thumb="/assets/20-thumb.jpg" full="/assets/20.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -142,7 +142,16 @@
     <div class="row marg-top-row-1 my-marg">
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top haute" src="/assets/99.jpg" alt>
+          <image-dialog thumb="/assets/99-thumb.jpg" full="/assets/99.jpg"></image-dialog>
+          <div class="card-body">
+            <h3 class="card-title">Rampe</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-4 portfolio-item">
+        <div class="card h-100">
+          <image-dialog thumb="/assets/98-thumb.jpg" full="/assets/98.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -151,7 +160,7 @@
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top haute" src="/assets/98.jpg" alt>
+          <image-dialog thumb="/assets/97-thumb.jpg" full="/assets/97.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -160,7 +169,7 @@
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top haute" src="/assets/97.jpg" alt>
+          <image-dialog thumb="/assets/96-thumb.jpg" full="/assets/96.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -169,51 +178,53 @@
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top haute" src="/assets/96.jpg" alt>
+          <image-dialog thumb="/assets/95-thumb.jpg" full="/assets/95.jpg"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <img class="card-img-top haute" src="/assets/95.jpg" alt>
-          <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Rampe</h3>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top haute" src="/assets/94.jpg" alt>
+          <image-dialog thumb="/assets/94-thumb.jpg" full="/assets/94.jpg"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Porte</h3>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top haute" src="/assets/93.jpg" alt>
+          <image-dialog thumb="/assets/93-thumb.jpg" full="/assets/93.jpg"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Escalier</h3>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top haute" src="/assets/92.jpg" alt>
+          <!-- <img class="card-img-top" src="/assets/92.jpg" alt> -->
+          <image-dialog thumb="/assets/92-thumb.jpg" full="/assets/92.jpg"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 </template>
+
+<script>
+import ImageDialog from '../components/ImageDialog.vue';
+
+export default {
+    components: { ImageDialog },
+}
+</script>
+
 
 <style scoped>
 div.card-body{
@@ -224,6 +235,6 @@ div.card-body{
      margin-bottom: 0;
  }
  .my-marg{
-     margin-top: 1rem;
+     margin-top: 2rem;
  }
 </style>
