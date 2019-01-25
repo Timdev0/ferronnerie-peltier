@@ -47,7 +47,7 @@
         </div>
         <div class="col-lg-5 fire-art">
           <h4>Le feu et le fer au service de l'art</h4>
-          <img src="/assets/peltier.jpg" alt=""  style="height: 152px; width: auto;">
+          <img src="/assets/peltier.jpg" alt="logo-ferronnerie-peltier"  style="height: 152px; width: auto;">
         </div>
       </div>
 
@@ -56,7 +56,7 @@
       <div class="row marg-top-row-1">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <image-dialog thumb="/assets/07-thumb.jpg" full="/assets/07.jpg"></image-dialog>
+          <image-dialog thumb="/assets/07-thumb.jpg" full="/assets/07.jpg" altname="portes-portails"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Portes - Portails
@@ -66,7 +66,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <image-dialog thumb="/assets/16-thumb.jpg" full="/assets/16.jpg"></image-dialog>
+          <image-dialog thumb="/assets/16-thumb.jpg" full="/assets/16.jpg" altname="Vérandas"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Vérandas
@@ -76,7 +76,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <image-dialog thumb="/assets/06-thumb.jpg" full="/assets/06.jpg"></image-dialog>
+          <image-dialog thumb="/assets/06-thumb.jpg" full="/assets/06.jpg" altname="Rampes"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Rampes
@@ -87,7 +87,7 @@
         
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <image-dialog thumb="/assets/05-thumb.jpg" full="/assets/05.jpg"></image-dialog>
+          <image-dialog thumb="/assets/05-thumb.jpg" full="/assets/05.jpg" altname="Mains courantes"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Mains courantes
@@ -97,7 +97,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <image-dialog thumb="/assets/09-thumb.jpg" full="/assets/09.jpg"></image-dialog>
+          <image-dialog thumb="/assets/09-thumb.jpg" full="/assets/09.jpg" altname="Décorations"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Décorations
@@ -107,7 +107,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <image-dialog thumb="/assets/08-thumb.jpg" full="/assets/08.jpeg"></image-dialog>
+          <image-dialog thumb="/assets/08-thumb.jpg" full="/assets/08.jpeg" altname="Serrurerie"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Serrurerie
