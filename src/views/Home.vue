@@ -56,7 +56,7 @@
       <div class="row marg-top-row-1">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/07.jpg" alt="">
+          <image-dialog thumb="/assets/07-thumb.jpg" full="/assets/07.jpg"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Portes - Portails
@@ -66,7 +66,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/01.jpg" alt="">
+          <image-dialog thumb="/assets/16-thumb.jpg" full="/assets/16.jpg"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Vérandas
@@ -76,7 +76,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/06.jpg" alt="">
+          <image-dialog thumb="/assets/06-thumb.jpg" full="/assets/06.jpg"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Rampes
@@ -87,7 +87,7 @@
         
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/05.jpg" alt="">
+          <image-dialog thumb="/assets/05-thumb.jpg" full="/assets/05.jpg"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Mains courantes
@@ -97,7 +97,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <img class="card-img-top" src="/assets/09.jpg" alt="">
+          <image-dialog thumb="/assets/09-thumb.jpg" full="/assets/09.jpg"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Décorations
@@ -107,7 +107,7 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <img class="card-img-top" src="/assets/08.jpeg" alt="">
+          <image-dialog thumb="/assets/08-thumb.jpg" full="/assets/08.jpeg"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Serrurerie
@@ -131,6 +131,14 @@ export default {
     $(".carousel").carousel();
   }
 };
+</script>
+
+<script>
+import ImageDialog from '../components/ImageDialog.vue';
+
+export default {
+    components: { ImageDialog },
+}
 </script>
 
 <style scoped>
