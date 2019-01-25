@@ -47,7 +47,7 @@
         </div>
         <div class="col-lg-5 fire-art">
           <h4>Le feu et le fer au service de l'art</h4>
-          <img src="/assets/peltier.jpg" alt="logo-ferronnerie-peltier"  style="height: 152px; width: auto;" title="logo-ferronnerie-peltier">
+          <img src="/assets/peltier.jpg" alt="Logo Ferronnerie Peltier"  style="height: 152px; width: auto;" title="Logo Ferronnerie Peltier">
         </div>
       </div>
 
@@ -56,7 +56,7 @@
       <div class="row marg-top-row-1">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <image-dialog thumb="/assets/07-thumb.jpg" full="/assets/07.jpg" altname="portes-portails" titlename="portes-portails"></image-dialog>
+          <image-dialog thumb="/assets/07-thumb.jpg" full="/assets/07.jpg" altname="Portes Portails" titlename="Portes Portails"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Portes - Portails
@@ -87,7 +87,7 @@
         
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-          <image-dialog thumb="/assets/05-thumb.jpg" full="/assets/05.jpg" altname="Mains-courantes" titlename="Mains-Courantes"></image-dialog>
+          <image-dialog thumb="/assets/05-thumb.jpg" full="/assets/05.jpg" altname="Mains courantes" titlename="Mains Courantes"></image-dialog>
             <div class="card-body">
               <h3 class="card-title">
                 Mains courantes
