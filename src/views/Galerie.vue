@@ -43,7 +43,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/10-thumb.jpg" full="/assets/10.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/10-thumb.jpg" full="/assets/10.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -60,7 +60,7 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/12-thumb.jpg" full="/assets/12.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/12-thumb.jpg" full="/assets/12.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -69,7 +69,7 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/13-thumb.jpg" full="/assets/13.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/13-thumb.jpg" full="/assets/13.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -105,7 +105,7 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/17-thumb.jpg" full="/assets/17.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/17-thumb.jpg" full="/assets/17.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -114,7 +114,7 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/18-thumb.jpg" full="/assets/18.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/18-thumb.jpg" full="/assets/18.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -132,7 +132,7 @@
 
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/20-thumb.jpg" full="/assets/20.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/20-thumb.jpg" full="/assets/20.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -151,7 +151,7 @@
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/98-thumb.jpg" full="/assets/98.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/98-thumb.jpg" full="/assets/98.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -160,7 +160,7 @@
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/97-thumb.jpg" full="/assets/97.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/97-thumb.jpg" full="/assets/97.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -169,7 +169,7 @@
 
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
-          <image-dialog thumb="/assets/96-thumb.jpg" full="/assets/96.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/96-thumb.jpg" full="/assets/96.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
@@ -206,7 +206,7 @@
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">
           <!-- <img class="card-img-top" src="/assets/92.jpg" alt> -->
-          <image-dialog thumb="/assets/92-thumb.jpg" full="/assets/92.jpg" altname=""></image-dialog>
+          <image-dialog thumb="/assets/92-thumb.jpg" full="/assets/92.jpg" altname="temp"></image-dialog>
           <div class="card-body">
             <h3 class="card-title"></h3>
           </div>
