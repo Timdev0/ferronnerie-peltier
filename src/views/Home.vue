@@ -9,19 +9,19 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background: url('/assets/02.jpg') no-repeat bottom center fixed;">
+          <div class="carousel-item active" style="background: url('/assets/02.jpg') no-repeat center center;">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Vérandas</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background: url('/assets/03.jpg') no-repeat bottom center fixed">
+          <div class="carousel-item" style="background: url('/assets/03.jpg') no-repeat center center;">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portes</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background: url('/assets/04.jpg') no-repeat center center fixed">
+          <div class="carousel-item test" style="background: url('/assets/04.jpg') no-repeat center center;">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portails</p>
             </div>
@@ -188,6 +188,10 @@ h1.content{
 
 .carousel-item{
   background-size: cover !important;
+}
+
+.test{
+  background-attachment: fixed !important;
 }
 </style>
 
