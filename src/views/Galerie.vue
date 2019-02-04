@@ -1,6 +1,6 @@
 <template>
   <div id="galerie" class="container">
-    <h1 class="mt-4 mb-3">Galerie Photo</h1>
+    <h1 class="mt-4 mb-3">Galerie</h1>
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
         <router-link to="/">Accueil</router-link>
@@ -139,6 +139,9 @@
         </div>
       </div>
     </div>
+
+    <hr>
+
     <div class="row marg-top-row-1 my-marg">
       <div class="col-lg-3 col-sm-4 portfolio-item">
         <div class="card h-100">

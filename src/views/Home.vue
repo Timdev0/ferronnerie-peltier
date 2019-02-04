@@ -9,19 +9,19 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('/assets/02.jpg')">
+          <div class="carousel-item active" style="background: url('/assets/02.jpg') no-repeat center center fixed;">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Vérandas</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('/assets/03.jpg')">
+          <div class="carousel-item" style="background: url('/assets/03.jpg') no-repeat center center fixed">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portes</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('/assets/04.jpg')">
+          <div class="carousel-item" style="background: url('/assets/04.jpg') no-repeat center center fixed">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portails</p>
             </div>
@@ -51,7 +51,7 @@
         </div>
       </div>
 
-      <h2>Nos réalisations</h2>
+      <h2>Nos créations</h2>
 
       <div class="row marg-top-row-1">
         <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -184,6 +184,10 @@ h1.content{
 
 .see-more{
   padding-left: 15px;
+}
+
+.carousel-item{
+  background-size: cover !important;
 }
 </style>
 
