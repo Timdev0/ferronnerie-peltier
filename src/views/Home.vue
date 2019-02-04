@@ -189,9 +189,5 @@ h1.content{
 .carousel-item{
   background-size: cover !important;
 }
-
-.test{
-  background-attachment: fixed !important;
-}
 </style>
 
