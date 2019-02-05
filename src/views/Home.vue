@@ -9,7 +9,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background: url('/assets/02.jpg') no-repeat center center;">
+          <div class="carousel-item active" style="background: url('/assets/02-test.jpg') no-repeat center center;">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Vérandas</p>
             </div>
