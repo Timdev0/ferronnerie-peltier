@@ -22,6 +22,9 @@
             <router-link to="/">Accueil</router-link>
           </li>
           <li>
+              <router-link to="/galerie">Galerie</router-link>
+          </li>
+          <li>
               <router-link to="/contact">Contact</router-link>
           </li>
         </ul>
@@ -31,3 +34,8 @@
     </div>
     </div>
 </template>
+<style scoped>
+  .jumbotron{
+    min-height: 478px;
+  }
+</style>
