@@ -194,6 +194,8 @@ export default {
 
 .image-dialog-thumb{
   max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 </style>
 
