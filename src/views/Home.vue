@@ -9,19 +9,19 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background: url('/assets/02.jpg') no-repeat center center;">
+          <div class="carousel-item active" style="background-image: url('/assets/02.jpg');">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Vérandas</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background: url('/assets/03.jpg') no-repeat center center;">
+          <div class="carousel-item carousel-item-my" style="background: url('/assets/03.jpg') no-repeat center center;">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portes</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background: url('/assets/04.jpg') no-repeat center center;">
+          <div class="carousel-item carousel-item-my" style="background: url('/assets/04.jpg') no-repeat center center;">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portails</p>
             </div>
@@ -184,7 +184,7 @@ h1.content{
   padding-left: 15px;
 }
 
-.carousel-item{
+.carousel-item-my{
   background-size: cover !important;
 }
 </style>
