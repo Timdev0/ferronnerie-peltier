@@ -43,7 +43,7 @@
       <div class="row marg-top-row-2">
         <div class="col-lg-7">
           <h1 class="content">Ferronnerie d'Art - Serrurerie - Metallerie | Willy Peltier</h1>
-          <p>Créée en 1982, notre ferronnerie familiale vous propose des créations sur mesure : portails, verrières, vérandas, escaliers, rampes débillardées, portes d'entrée, serrurerie,...</p>
+          <p>Créée en 1982, notre ferronnerie familiale se situe à Samoreau, à côté de Fontainebleau, et vous propose des créations sur-mesure : portails, verrières, vérandas, escaliers, rampes débillardées, portes d'entrée, serrurerie, ...</p>
         </div>
         <div class="col-lg-5 fire-art">
           <h4>Le feu et le fer au service de l'art</h4>
