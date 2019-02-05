@@ -98,7 +98,6 @@
   .help-msg{
     margin-top: 6px;
   }
-
   .captcha{
     margin-bottom: 8px;
   }

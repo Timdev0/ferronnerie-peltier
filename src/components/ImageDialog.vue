@@ -169,7 +169,6 @@ export default {
 .image-dialog-animate.loading {
   display: block;
 }
-
 .dialog-enter-active, .dialog-leave-active {
   transition: background-color 300ms ease-out;
 }

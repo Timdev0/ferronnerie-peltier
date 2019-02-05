@@ -21,7 +21,7 @@
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item test" style="background: url('/assets/04.jpg') no-repeat center center;">
+          <div class="carousel-item" style="background: url('/assets/04.jpg') no-repeat center center;">
             <div class="carousel-caption d-none d-md-block">
               <p class="main-slide">Portails</p>
             </div>
@@ -84,7 +84,6 @@
             </div>
           </div>
         </div>
-        
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
           <image-dialog thumb="/assets/05-thumb.jpg" full="/assets/05.jpg" altname="Mains courantes" titlename="Mains Courantes"></image-dialog>
@@ -166,7 +165,6 @@ export default {
       margin-bottom: 2rem;
     }
   }
-
 
 .main-slide {
   font-size: 1.75rem;
