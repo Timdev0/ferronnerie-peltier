@@ -45,7 +45,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/10-thumb.jpg" full="/assets/10.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Garde Corps</h3>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/12-thumb.jpg" full="/assets/12.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Meuble</h3>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/13-thumb.jpg" full="/assets/13.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Verriere</h3>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/14-thumb.jpg" full="/assets/14.jpg" altname="Porte" titlename="Porte"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title">Porte</h3>
+            <h3 class="card-title">Marquise</h3>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/15-thumb.jpg" full="/assets/15.jpg" altname="Portail" titlename="Portail"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title">Portail</h3>
+            <h3 class="card-title">Portail coulissant</h3>
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/17-thumb.jpg" full="/assets/17.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Marquise</h3>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/18-thumb.jpg" full="/assets/18.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Véranda</h3>
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/20-thumb.jpg" full="/assets/20.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Table</h3>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/98-thumb.jpg" full="/assets/98.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Grille décorative</h3>
           </div>
         </div>
       </div>
@@ -165,7 +165,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/97-thumb.jpg" full="/assets/97.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Décoration</h3>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/96-thumb.jpg" full="/assets/96.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Porte coulissante</h3>
           </div>
         </div>
       </div>
@@ -192,7 +192,7 @@
         <div class="card h-100">
           <image-dialog thumb="/assets/94-thumb.jpg" full="/assets/94.jpg" altname="Porte"  titlename="Porte"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title">Porte</h3>
+            <h3 class="card-title">Grille</h3>
           </div>
         </div>
       </div>
@@ -211,7 +211,7 @@
           <!-- <img class="card-img-top" src="/assets/92.jpg" alt> -->
           <image-dialog thumb="/assets/92-thumb.jpg" full="/assets/92.jpg" altname="temp" titlename="temp"></image-dialog>
           <div class="card-body">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Meuble</h3>
           </div>
         </div>
       </div>

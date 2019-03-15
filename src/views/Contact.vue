@@ -1,5 +1,5 @@
 <template>
-    <div id="contact" class="container">
+    <div id="contact" class="container taille">
 
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3">Contact</h1>
@@ -43,7 +43,7 @@
 
       <!-- Contact Form -->
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-      <div class="row">
+      <div class="row" style="display:none;">
         <div class="col-lg-8 mb-4">
           <h3>Envoyer un message</h3>
           <form name="contact" method="POST" action="/success.html" netlify-recaptcha netlify>
@@ -100,6 +100,9 @@
   }
   .captcha{
     margin-bottom: 8px;
+  }
+  .taille{
+    height: 700px;
   }
 </style>
 
