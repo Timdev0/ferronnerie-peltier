@@ -16,7 +16,7 @@
 
       <div class="jumbotron">
         <h1 class="display-1">404</h1>
-        <p>La page que vous cherchez est introuvable. Voici des liens utiles pour vous remettre sur les rails.</p>
+        <p>La page que vous cherchez est introuvable. Voici des liens utiles.</p>
         <ul>
           <li>
             <router-link to="/">Accueil</router-link>
