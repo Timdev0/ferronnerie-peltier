@@ -47,7 +47,7 @@
         </div>
         <div class="col-lg-5 fire-art">
           <h4>Le feu et le fer au service de l'art</h4>
-          <img src="/assets/peltier.jpg" alt="Logo Ferronnerie Peltier"  style="height: 152px; width: auto;" title="Logo Ferronnerie Peltier">
+          <img class="logo-ferronnerie" src="/assets/peltier.jpg" alt="Logo Ferronnerie Peltier" title="Logo Ferronnerie Peltier">
         </div>
       </div>
 
@@ -187,5 +187,18 @@ h1.content{
 .carousel-item-my{
   background-size: cover !important;
 }
+
+.logo-ferronnerie{
+  height: 152px; 
+  width: auto;
+}
+
+@media screen and (max-width: 375px) {
+  .logo-ferronnerie {
+    height: 115px; 
+    width: auto;
+  }
+}
+
 </style>
 
