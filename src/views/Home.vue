@@ -198,9 +198,6 @@ h1.content{
     height: 115px !important; 
     width: auto;
   }
-  .h-100 {
-    width: 255px !important;
-  }
 }
 
 </style>
