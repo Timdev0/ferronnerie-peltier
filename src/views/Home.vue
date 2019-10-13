@@ -195,8 +195,11 @@ h1.content{
 
 @media screen and (max-width: 375px) {
   .logo-ferronnerie {
-    height: 115px; 
+    height: 115px !important; 
     width: auto;
+  }
+  .h-100 {
+    width: 255px !important;
   }
 }
 
