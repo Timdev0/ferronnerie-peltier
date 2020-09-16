@@ -104,7 +104,7 @@
     margin-bottom: 8px;
   }
   .taille{
-    height: 700px;
+    min-height: 81vh;
   }
 </style>
 
